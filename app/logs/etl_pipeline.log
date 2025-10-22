@@ -1,44 +1,8 @@
-2025-10-23 00:15:29,997 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\h9gi-nx95.csv extracted : 500 records read from the file
-2025-10-23 00:15:30,444 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\yellow_tripdata_2025-01.parquet : extracted 3475226 records from the parguet file
-2025-10-23 00:15:30,450 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
-2025-10-23 00:15:31,454 [DEBUG] urllib3.connectionpool: https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
-2025-10-23 00:15:31,454 [INFO] __main__: status code: 200 - OK , invoking data from https://jsonplaceholder.typicode.com/posts done successfully
-2025-10-23 00:15:31,458 [INFO] __main__: status code : 200 , 100 rows extracted from https://jsonplaceholder.typicode.com/posts
-2025-10-23 00:15:31,698 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\movies.sqlite read : 4773 records from movies
-2025-10-23 00:15:42,085 [INFO] __main__: https://www.tgju.org/profile/geram18 get 10 records from webpage
-2025-10-23 00:22:05,212 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\h9gi-nx95.csv extracted : 500 records read from the file
-2025-10-23 00:22:05,628 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\yellow_tripdata_2025-01.parquet : extracted 3475226 records from the parguet file
-2025-10-23 00:22:05,634 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
-2025-10-23 00:22:07,517 [DEBUG] urllib3.connectionpool: https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
-2025-10-23 00:22:07,518 [INFO] __main__: status code: 200 - OK , invoking data from https://jsonplaceholder.typicode.com/posts done successfully
-2025-10-23 00:22:07,519 [INFO] __main__: status code : 200 - OK , 100 rows extracted from https://jsonplaceholder.typicode.com/posts
-2025-10-23 00:22:07,572 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\movies.sqlite read : 4773 records from movies
-2025-10-23 00:22:17,758 [INFO] __main__: 10 records from https://www.tgju.org/profile/geram18 : table                            خصیصه     مقادیر
-0                       نرخ فعلی  108639000
-1              بالاترین قیمت روز  110098000
-2            پایین ترین قیمت روز  107987000
-3        بیشترین مقدار نوسان روز     870000
-4         درصد بیشترین نوسان روز      1.27%
-5             نرخ بازگشایی بازار  109149000
-6             زمان ثبت آخرین نرخ   ۱۹:۵۹:۵۶
-7                  نرخ روز گذشته  109121000
-8   درصد تغییر نسبت به روز گذشته      0.44%
-9  میزان تغییر نسبت به روز گذشته     482000 extracted
-2025-10-23 00:22:27,538 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\h9gi-nx95.csv extracted : 500 records read from the file
-2025-10-23 00:22:27,945 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\yellow_tripdata_2025-01.parquet : extracted 3475226 records from the parguet file
-2025-10-23 00:22:27,950 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
-2025-10-23 00:22:28,806 [DEBUG] urllib3.connectionpool: https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
-2025-10-23 00:22:28,806 [INFO] __main__: status code: 200 - OK , invoking data from https://jsonplaceholder.typicode.com/posts done successfully
-2025-10-23 00:22:28,809 [INFO] __main__: status code : 200 - OK , 100 rows extracted from https://jsonplaceholder.typicode.com/posts
-2025-10-23 00:22:28,886 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\movies.sqlite read : 4773 records from movies
-2025-10-23 00:22:37,345 [INFO] __main__: 10 records from https://www.tgju.org/profile/geram18 : table                            خصیصه     مقادیر
-0                       نرخ فعلی  108639000
-1              بالاترین قیمت روز  110098000
-2            پایین ترین قیمت روز  107987000
-3        بیشترین مقدار نوسان روز     870000
-4         درصد بیشترین نوسان روز      1.27%
-5             نرخ بازگشایی بازار  109149000
-6             زمان ثبت آخرین نرخ   ۱۹:۵۹:۵۶
-7                  نرخ روز گذشته  109121000
-8   درصد تغییر نسبت به روز گذشته      0.44%
-9  میزان تغییر نسبت به روز گذشته     482000 extracted
+2025-10-23 00:34:10,833 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\h9gi-nx95.csv extracted : 500 records read from the file
+2025-10-23 00:34:11,277 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\yellow_tripdata_2025-01.parquet : extracted 3475226 records from the parguet file
+2025-10-23 00:34:11,282 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+2025-10-23 00:34:12,957 [DEBUG] urllib3.connectionpool: https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
+2025-10-23 00:34:12,958 [INFO] __main__: status code: 200 - OK , invoking data from https://jsonplaceholder.typicode.com/posts done successfully
+2025-10-23 00:34:12,962 [INFO] __main__: status code : 200 - OK , 100 rows extracted from https://jsonplaceholder.typicode.com/posts
+2025-10-23 00:34:13,033 [INFO] __main__: F:\Development\python\ETL\Building_ETL_Pipelines_with_Python\app\data\raw\movies.sqlite read : 4773 records from movies
+2025-10-23 00:34:18,540 [INFO] __main__: 10 records from https://www.tgju.org/profile/geram18 table read successfully

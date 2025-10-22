@@ -99,7 +99,7 @@ def source_data_from_html(html_url, matching_keywords):
     try:
         df_html = pd.read_html(html_url, match=matching_keywords)
         df_html = df_html[0]
-        logger.info(f'{df_html.shape[0]} records from {html_url} : table {df_html} extracted')
+        logger.info(f'{df_html.shape[0]} records from {html_url} table read successfully')
     except Exception as e:
         logger.exception(f'Exception {e} encountered while reading data from {html_url}')
         df_html = pd.DataFrame()
