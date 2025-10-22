@@ -3,6 +3,10 @@ import logging.config
 import os.path
 
 def log_config():
+
+    log_dir = os.path.join('../logs')
+    os.makedirs(log_dir, exist_ok=True)
+
     config = {
         'version': 1,
         'disable_existing_loggers': False,
@@ -16,7 +20,7 @@ def log_config():
                 'class': 'logging.FileHandler',
                 'level': 'DEBUG',
                 'formatter': 'standard',
-                'filename': os.path.join('logs', 'etl_pipeline.log'),
+                'filename': os.path.join(log_dir, 'etl_pipeline.log'),
                 'encoding': 'utf8'
             },
         },
