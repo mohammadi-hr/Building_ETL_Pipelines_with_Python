@@ -82,4 +82,26 @@ def source_data_from_html(html_url, matching_keywords):
     return df_html
 
 # www.tgju.org دریافت نرخ قیمت طلا از جدول مربوطه در وب سایت
-print(source_data_from_html(webpage_url, 'خصیصه'))
+# print(source_data_from_html(webpage_url, 'خصیصه'))
+
+
+def extract_data_from_all_resource():
+    csv_path = os.path.join(DATA_DIR, "h9gi-nx95.csv")
+    parquet_path = os.path.join(DATA_DIR, "yellow_tripdata_2025-01.parquet")
+    api_end_point = "https://jsonplaceholder.typicode.com/posts"
+    db_name = "movies.sqlite"
+    df_table = "movies"
+    webpage_url = "https://www.tgju.org/profile/geram18"
+    matching_word = "خصیصه"
+
+    df_csv, df_parquet, df_api, df_table, df_webpage = (source_data_from_csv(csv_path),
+                                                        source_data_from_parquet(parquet_path),
+                                                        source_data_from_api(api_end_point),
+                                                        source_data_from_table(db_name, df_table),
+                                                        source_data_from_html(webpage_url,matching_word))
+
+    return df_csv, df_parquet, df_api, df_table, df_webpage
+
+extracted_data = extract_data_from_all_resource()
+for data in extracted_data:
+    print(data)
