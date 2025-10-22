@@ -11,6 +11,9 @@ numba = "*"
 pyarrow = "*"
 certifi = "*"
 urllib3 = "*"
+lxml = "*"
+html5lib = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
